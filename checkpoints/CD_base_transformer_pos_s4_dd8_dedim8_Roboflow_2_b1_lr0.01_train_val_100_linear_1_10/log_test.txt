@@ -1,0 +1,22 @@
+================ (Thu Jun  5 10:03:37 2025) ================
+gpu_ids: [0] project_name: CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_2_b1_lr0.01_train_val_103_linear_2 checkpoint_root: checkpoints num_workers: 4 dataset: CDDataset data_name: Roboflow_2 batch_size: 1 split: train split_val: val img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 103 lr_policy: linear lr_decay_iters: 100 checkpoint_dir: checkpoints/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_2_b1_lr0.01_train_val_103_linear_2 vis_dir: vis/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_2_b1_lr0.01_train_val_103_linear_2 loading last checkpoint...
+Eval Historical_best_acc = 0.7538 (at epoch 34)
+
+Begin evaluation...
+Is_training: False. [1,320],  running_mf1: 0.49996
+Is_training: False. [101,320],  running_mf1: 0.50000
+Is_training: False. [201,320],  running_mf1: 0.50000
+Is_training: False. [301,320],  running_mf1: 0.49730
+acc: 0.98937 miou: 0.67841 mf1: 0.76605 iou_0: 0.98931 iou_1: 0.36750 F1_0: 0.99462 F1_1: 0.53748 precision_0: 0.99816 precision_1: 0.41199 recall_0: 0.99112 recall_1: 0.77291 
+
+================ (Thu Jun  5 13:46:15 2025) ================
+gpu_ids: [0] project_name: CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_2_b1_lr0.01_train_val_103_linear_2 print_models: False num_workers: 4 dataset: CDDataset data_name: Roboflow_2 batch_size: 1 split: test img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 checkpoint_name: best_ckpt.pt output_folder: output_analysis/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_2_b1_lr0.01_train_val_103_linear_2/pred checkpoint_dir: checkpoints/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_2_b1_lr0.01_train_val_103_linear_2 vis_dir: vis/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_2_b1_lr0.01_train_val_103_linear_2 loading last checkpoint...
+Eval Historical_best_acc = 0.7538 (at epoch 34)
+
+Begin evaluation...
+Is_training: False. [1,320],  running_mf1: 0.49996
+Is_training: False. [101,320],  running_mf1: 0.50000
+Is_training: False. [201,320],  running_mf1: 0.50000
+Is_training: False. [301,320],  running_mf1: 0.49730
+acc: 0.98937 miou: 0.67841 mf1: 0.76605 iou_0: 0.98931 iou_1: 0.36750 F1_0: 0.99462 F1_1: 0.53748 precision_0: 0.99816 precision_1: 0.41199 recall_0: 0.99112 recall_1: 0.77291 
+

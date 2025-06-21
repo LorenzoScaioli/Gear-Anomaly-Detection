@@ -1,0 +1,45 @@
+================ (Sat May 24 06:08:11 2025) ================
+gpu_ids: [0] project_name: CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 checkpoint_root: checkpoints num_workers: 4 dataset: CDDataset data_name: Roboflow_1 batch_size: 1 split: train split_val: val img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 100 lr_policy: linear lr_decay_iters: 100 checkpoint_dir: checkpoints/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 vis_dir: vis/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 loading last checkpoint...
+Eval Historical_best_acc = 0.6923 (at epoch 94)
+
+Begin evaluation...
+Is_training: False. [1,960],  running_mf1: 0.48879
+Is_training: False. [101,960],  running_mf1: 0.49975
+Is_training: False. [201,960],  running_mf1: 0.49910
+Is_training: False. [301,960],  running_mf1: 0.49943
+Is_training: False. [401,960],  running_mf1: 0.49811
+Is_training: False. [501,960],  running_mf1: 0.49788
+Is_training: False. [601,960],  running_mf1: 0.49998
+Is_training: False. [701,960],  running_mf1: 0.50000
+Is_training: False. [801,960],  running_mf1: 0.49982
+Is_training: False. [901,960],  running_mf1: 0.49978
+acc: 0.98060 miou: 0.61500 mf1: 0.69477 iou_0: 0.98047 iou_1: 0.24952 F1_0: 0.99014 F1_1: 0.39939 precision_0: 0.99843 precision_1: 0.26522 recall_0: 0.98199 recall_1: 0.80825 
+
+================ (Mon May 26 07:48:31 2025) ================
+gpu_ids: [0] project_name: CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 print_models: False num_workers: 4 dataset: CDDataset data_name: Roboflow_1 batch_size: 1 split: test img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 checkpoint_name: best_ckpt.pt output_folder: datasets/Roboflow_1/predict checkpoint_dir: checkpoints/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 vis_dir: vis/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 loading last checkpoint...
+Eval Historical_best_acc = 0.6923 (at epoch 94)
+
+Begin evaluation...
+Is_training: False. [1,960],  running_mf1: 0.48879
+Is_training: False. [101,960],  running_mf1: 0.49975
+Is_training: False. [201,960],  running_mf1: 0.49910
+Is_training: False. [301,960],  running_mf1: 0.49943
+Is_training: False. [401,960],  running_mf1: 0.49811
+Is_training: False. [501,960],  running_mf1: 0.49788
+Is_training: False. [601,960],  running_mf1: 0.49998
+Is_training: False. [701,960],  running_mf1: 0.50000
+Is_training: False. [801,960],  running_mf1: 0.49982
+Is_training: False. [901,960],  running_mf1: 0.49978
+acc: 0.98060 miou: 0.61500 mf1: 0.69477 iou_0: 0.98047 iou_1: 0.24952 F1_0: 0.99014 F1_1: 0.39939 precision_0: 0.99843 precision_1: 0.26522 recall_0: 0.98199 recall_1: 0.80825 
+
+================ (Wed May 28 10:51:52 2025) ================
+gpu_ids: [0] project_name: CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 print_models: False num_workers: 4 dataset: CDDataset data_name: Roboflow_2 batch_size: 1 split: test img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 checkpoint_name: best_ckpt.pt output_folder: output_analysis/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2/pred checkpoint_dir: checkpoints/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 vis_dir: vis/CD_base_transformer_pos_s4_dd8_dedim8_Roboflow_1_b1_lr0.01_train_val_100_linear_2 loading last checkpoint...
+Eval Historical_best_acc = 0.6923 (at epoch 94)
+
+Begin evaluation...
+Is_training: False. [1,320],  running_mf1: 0.49793
+Is_training: False. [101,320],  running_mf1: 0.49766
+Is_training: False. [201,320],  running_mf1: 0.49895
+Is_training: False. [301,320],  running_mf1: 0.49954
+acc: 0.98202 miou: 0.62322 mf1: 0.70463 iou_0: 0.98190 iou_1: 0.26454 F1_0: 0.99087 F1_1: 0.41840 precision_0: 0.99844 precision_1: 0.28210 recall_0: 0.98341 recall_1: 0.80954 
+
